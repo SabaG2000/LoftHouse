@@ -1,0 +1,22 @@
+.info {
+  position: relative;
+  font-size: 18px;
+}
+.info--map, .info--tel {
+  padding-left: 35px;
+}
+.info--map::before, .info--tel::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 21px;
+  height: 21px;
+  background-repeat: no-repeat;
+}
+.info--map::before {
+  background-image: url("./../../img/Header/header-bg.jpg/map.svg");
+}
+.info--tel::before {
+  background-image: url("./../../img/Header/header-bg.jpg/mobile.svg");
+}/*# sourceMappingURL=info.css.map */
